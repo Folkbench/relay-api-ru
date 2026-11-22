@@ -18,6 +18,10 @@ for r in items:
  assert re.fullmatch(r'[a-z0-9-]+',r['id']) and r['checked_at']
  assert any(s['resource_id']==r['id'] for s in sources)
 if KIND=='providers':
+ import struct
+ icon=(ROOT/'docs/favicon.ico').read_bytes()
+ assert struct.unpack_from('<HHH',icon)==(0,1,1) and icon[6:8]==bytes([32,32])
+ assert len(icon)>1000
  from build import outputs
  assert len(items)==7 and len({r['group'] for r in items})==6
  assert data['official_database_sync'] is False
@@ -51,7 +55,7 @@ for p in ROOT.rglob('*.md'):
   assert target.is_relative_to(ROOT) and target.exists(),(str(p),link)
 # Content-only scans, deliberately excluding checks themselves and git internals.
 for p in ROOT.rglob('*'):
- if not p.is_file() or '.git' in p.parts or p.suffix=='.py' or '__pycache__' in p.parts:continue
+ if not p.is_file() or '.git' in p.parts or p.suffix in {'.py','.ico'} or '__pycache__' in p.parts:continue
  t=p.read_text()
  for pattern in [r'gh[pousr]_[A-Za-z0-9]{20,}',r'-----BEGIN [A-Z ]*PRIVATE KEY-----',r'sk-(?:proj-)?[A-Za-z0-9]{30,}']:
   assert not re.search(pattern,t),'Возможный секрет: '+str(p)

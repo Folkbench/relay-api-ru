@@ -15,8 +15,10 @@ function update() {
     return match;
   });
   const groups = new Set(shown.map(row => row.dataset.group));
-  document.querySelector('#count').textContent = `Показано сайтов: ${shown.length} · редакционных групп: ${groups.size}`;
-  document.querySelector('#empty').hidden = shown.length !== 0;
+  const isEmpty = shown.length === 0;
+  document.querySelector('#count').textContent = `Показано сайтов: ${shown.length} · редакционных групп: ${groups.size}` +
+    (isEmpty ? ' · Нет записей с такими условиями.' : '');
+  document.querySelector('#empty').hidden = !isEmpty;
 }
 form.addEventListener('input', update);
 form.addEventListener('change', update);
