@@ -1,0 +1,170 @@
+[
+  {
+    "resource_id": "plusvibe-api",
+    "kind": "website",
+    "url": "https://plusvibeapi.ru/",
+    "checked_at": "2026-11-23",
+    "timezone": "Asia/Shanghai",
+    "scope": "Прочитана публичная страница; не проверка API и не аудит поставщика."
+  },
+  {
+    "resource_id": "plusvibe-api",
+    "kind": "documentation",
+    "url": "https://plusvibeapi.ru/docs",
+    "checked_at": "2026-11-23",
+    "timezone": "Asia/Shanghai",
+    "scope": "Прочитана публичная страница; не проверка API и не аудит поставщика."
+  },
+  {
+    "resource_id": "plusvibe-api",
+    "kind": "pricing",
+    "url": "https://plusvibeapi.ru/models",
+    "checked_at": "2026-11-23",
+    "timezone": "Asia/Shanghai",
+    "scope": "Прочитана публичная страница; не проверка API и не аудит поставщика."
+  },
+  {
+    "resource_id": "getvibe",
+    "kind": "website",
+    "url": "https://getvibeapi.com/",
+    "checked_at": "2026-11-23",
+    "timezone": "Asia/Shanghai",
+    "scope": "Прочитана публичная страница; не проверка API и не аудит поставщика."
+  },
+  {
+    "resource_id": "getvibe",
+    "kind": "documentation",
+    "url": "https://getvibeapi.com/docs",
+    "checked_at": "2026-11-23",
+    "timezone": "Asia/Shanghai",
+    "scope": "Прочитана публичная страница; не проверка API и не аудит поставщика."
+  },
+  {
+    "resource_id": "getvibe",
+    "kind": "pricing",
+    "url": "https://getvibeapi.com/models",
+    "checked_at": "2026-11-23",
+    "timezone": "Asia/Shanghai",
+    "scope": "Прочитана публичная страница; не проверка API и не аудит поставщика."
+  },
+  {
+    "resource_id": "proxyapi",
+    "kind": "website",
+    "url": "https://proxyapi.ru/",
+    "checked_at": "2026-11-23",
+    "timezone": "Asia/Shanghai",
+    "scope": "Прочитана публичная страница; не проверка API и не аудит поставщика."
+  },
+  {
+    "resource_id": "proxyapi",
+    "kind": "documentation",
+    "url": "https://proxyapi.ru/docs",
+    "checked_at": "2026-11-23",
+    "timezone": "Asia/Shanghai",
+    "scope": "Прочитана публичная страница; не проверка API и не аудит поставщика."
+  },
+  {
+    "resource_id": "proxyapi",
+    "kind": "pricing",
+    "url": "https://proxyapi.ru/models/browse",
+    "checked_at": "2026-11-23",
+    "timezone": "Asia/Shanghai",
+    "scope": "Прочитана публичная страница; не проверка API и не аудит поставщика."
+  },
+  {
+    "resource_id": "aitunnel",
+    "kind": "website",
+    "url": "https://aitunnel.ru/",
+    "checked_at": "2026-11-23",
+    "timezone": "Asia/Shanghai",
+    "scope": "Прочитана публичная страница; не проверка API и не аудит поставщика."
+  },
+  {
+    "resource_id": "aitunnel",
+    "kind": "documentation",
+    "url": "https://aitunnel.ru/docs",
+    "checked_at": "2026-11-23",
+    "timezone": "Asia/Shanghai",
+    "scope": "Прочитана публичная страница; не проверка API и не аудит поставщика."
+  },
+  {
+    "resource_id": "aitunnel",
+    "kind": "pricing",
+    "url": "https://aitunnel.ru/models",
+    "checked_at": "2026-11-23",
+    "timezone": "Asia/Shanghai",
+    "scope": "Прочитана публичная страница; не проверка API и не аудит поставщика."
+  },
+  {
+    "resource_id": "routerai",
+    "kind": "website",
+    "url": "https://routerai.ru/",
+    "checked_at": "2026-11-23",
+    "timezone": "Asia/Shanghai",
+    "scope": "Прочитана публичная страница; не проверка API и не аудит поставщика."
+  },
+  {
+    "resource_id": "routerai",
+    "kind": "documentation",
+    "url": "https://routerai.ru/docs/guides",
+    "checked_at": "2026-11-23",
+    "timezone": "Asia/Shanghai",
+    "scope": "Прочитана публичная страница; не проверка API и не аудит поставщика."
+  },
+  {
+    "resource_id": "routerai",
+    "kind": "pricing",
+    "url": "https://routerai.ru/models",
+    "checked_at": "2026-11-23",
+    "timezone": "Asia/Shanghai",
+    "scope": "Прочитана публичная страница; не проверка API и не аудит поставщика."
+  },
+  {
+    "resource_id": "neuroapi",
+    "kind": "website",
+    "url": "https://neuroapi.host/",
+    "checked_at": "2026-11-23",
+    "timezone": "Asia/Shanghai",
+    "scope": "Прочитана публичная страница; не проверка API и не аудит поставщика."
+  },
+  {
+    "resource_id": "neuroapi",
+    "kind": "documentation",
+    "url": "https://neuroapi.host/docs/base-url",
+    "checked_at": "2026-11-23",
+    "timezone": "Asia/Shanghai",
+    "scope": "Прочитана публичная страница; не проверка API и не аудит поставщика."
+  },
+  {
+    "resource_id": "neuroapi",
+    "kind": "pricing",
+    "url": "https://neuroapi.host/price",
+    "checked_at": "2026-11-23",
+    "timezone": "Asia/Shanghai",
+    "scope": "Прочитана публичная страница; не проверка API и не аудит поставщика."
+  },
+  {
+    "resource_id": "soyuz",
+    "kind": "website",
+    "url": "https://souz.ai/",
+    "checked_at": "2026-11-23",
+    "timezone": "Asia/Shanghai",
+    "scope": "Прочитана публичная страница; не проверка API и не аудит поставщика."
+  },
+  {
+    "resource_id": "soyuz",
+    "kind": "documentation",
+    "url": "https://souz.ai/docs",
+    "checked_at": "2026-11-23",
+    "timezone": "Asia/Shanghai",
+    "scope": "Прочитана публичная страница; не проверка API и не аудит поставщика."
+  },
+  {
+    "resource_id": "soyuz",
+    "kind": "pricing",
+    "url": "https://souz.ai/models",
+    "checked_at": "2026-11-23",
+    "timezone": "Asia/Shanghai",
+    "scope": "Прочитана публичная страница; не проверка API и не аудит поставщика."
+  }
+]
