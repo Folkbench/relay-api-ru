@@ -59,5 +59,7 @@ for p in ROOT.rglob('*'):
  t=p.read_text()
  for pattern in [r'gh[pousr]_[A-Za-z0-9]{20,}',r'-----BEGIN [A-Z ]*PRIVATE KEY-----',r'sk-(?:proj-)?[A-Za-z0-9]{30,}']:
   assert not re.search(pattern,t),'Возможный секрет: '+str(p)
- assert not any(bad in t.lower() for bad in ['modelflare','castaly','hollymoon']),str(p)
+ # Do not ban station or product names in editorial text.
+ # Account/brand identity isolation is not a word filter: a file may mention
+ # names such as Modelflare without failing this check.
 print('OK: JSON, ссылки, источники, границы, языки, отсутствие типовых секретов; записей:',len(items))
